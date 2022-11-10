@@ -1,0 +1,39 @@
+.board {
+    border: 2px solid;
+    height: 560px;
+    width: 560px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell {
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    background-color: #F3F3F4;
+}
+
+.green {
+    background-color: #6A9B41;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #302E2B; 
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
